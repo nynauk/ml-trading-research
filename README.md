@@ -2,7 +2,7 @@
 
 A supervised-learning pipeline that predicts the direction of the next hour of EURUSD from price, session and
 SwiftPip Asia-range features, turns the predictions into positions, and backtests those positions through the
-[C++ backtesting engine](../cpp-backtesting-engine) with spread and commission. The data is the EURUSD history
+[C++ backtesting engine](https://github.com/nynauk/cpp-backtesting-engine) with spread and commission. The data is the EURUSD history
 from the SwiftPip research: 21 years of HistData one-minute bid bars, used here as 129,913 hourly bars.
 
 The answer, in short: **predictable, but not profitably.** The models find a small signal that holds out of
