@@ -1,0 +1,14 @@
+{
+  "rules": [
+    "model and feature set: lowest validation log loss",
+    "threshold: highest validation Sharpe at 0.5 pip + commission, among thresholds with at least 100 validation fills"
+  ],
+  "feature_set": "price + calendar + Asia range",
+  "model": "logistic",
+  "threshold": 0.08,
+  "validation_log_loss": 0.6918630035939294,
+  "validation_auc": 0.5304120259689897,
+  "validation_sharpe": -0.5198553724,
+  "validation_net_pnl": -5469,
+  "written_at_utc": "2026-10-26T23:11:54+00:00"
+}
